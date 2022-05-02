@@ -1,1 +1,31 @@
-<app-employee-form></app-employee-form>
+<h1>Welcome to Angular {{title}} from {{location}}</h1>
+<hr>
+<div>
+  <app-boxa labelValue="Location" [data]="location" (onBoxDataChange)="onBoxValuChange($event)"></app-boxa>
+</div>
+<div>
+  <app-boxa [data]="location"></app-boxa>
+</div>
+<div>
+  <app-countdisplay [count]="total"></app-countdisplay>
+</div>
+<div>
+  <app-hit-button [label]="hits"></app-hit-button>
+</div>
+<div>
+  <app-count-app></app-count-app>
+</div>
+<div>
+  <app-customer-form></app-customer-form>
+</div>
+<div>
+  <app-employee-form></app-employee-form>
+</div>
+<div>
+  <app-book-list></app-book-list>
+</div>
+<div>
+  <app-book-catlog></app-book-catlog>
+</div>
+<app-menu></app-menu>
+<router-outlet></router-outlet>
