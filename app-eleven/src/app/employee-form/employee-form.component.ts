@@ -11,10 +11,10 @@ export class EmployeeFormComponent implements OnInit {
   employeeFormGroup: FormGroup;
 
   empRecord: any = {
-    firstName: 'sumi',
-    lastName: 'murugesan',
-    email: 'sumi3006@gmail.com',
-    mobile: '1212343400',
+    firstName: 'baskar',
+    lastName: 's',
+    email: 'bass0126@gmail.com',
+    mobile: '0987654321',
   };
 
   constructor(private fb: FormBuilder) {
